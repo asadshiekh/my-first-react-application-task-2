@@ -7,9 +7,7 @@ function App() {
     <div className="App">
         <Layout>
           <HomePage></HomePage>
-          
         </Layout>
-
     </div>
   );
 }
