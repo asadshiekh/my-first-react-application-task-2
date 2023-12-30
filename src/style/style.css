@@ -684,3 +684,98 @@ text-align: left;
 color:#8F8F8F;
 padding: 10px 0;
 }
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    header{
+        display: block;
+    }
+
+    .banner-section .banner-inner-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .banner-section .banner-content .content-wraper{
+        padding: 15px;
+    }
+
+    .banner-section .content-wraper h2 {
+        font-size: 42px;
+        margin-bottom: 10px;
+    }
+    
+    .banner-section .content-wraper p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .banner-btns{
+        display: flex;
+    }
+
+    .banner-section .content-wraper .banner-btns .btn-style {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .banner-section {
+        background: url('../assets/images/home/banner/banner.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* background: linear-gradient(180deg, rgba(249, 249, 249, 0.00) 0%, rgba(249, 249, 249, 0.79) 47.1%, #F9F9F9 100%); */
+    }
+
+    .banner_image_placement{
+        display: none;
+    }
+
+    .services-section .services-inner-content {
+
+        grid-template-columns: 1fr;
+    }
+
+    .who-section .who-inner-content {
+        grid-template-columns: 1fr;
+    }
+
+    .company-section .company-inner-content {
+        grid-template-columns: 1fr;
+    }
+   
+    /* Client Review  */
+    .client-reviews .review-block {     
+        margin-top: 20px;
+    }
+
+    .client-reviews{
+        grid-template-columns: 1fr ;
+        column-gap: 0;
+        margin-top: 20px;
+    }
+
+    /* Footer */
+
+    footer{
+       grid-template-columns: 1fr;
+    }
+    footer .coloumn_two {
+        grid-template-columns: 1fr;
+    }
+
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
