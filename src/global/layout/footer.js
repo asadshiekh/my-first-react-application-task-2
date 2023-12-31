@@ -7,7 +7,7 @@ function footer() {
       <footer>
         <div className="coloumn_one">
           <div className="logo_img">
-            <img src={LogoImage} alt="" />
+          <Link to={"/"}><img src={LogoImage} alt="" /></Link>
           </div>
           <p>We make sure that your safety is never compromised. This is why we hire all the staff under the roof of Home Comfort, just for your satisfaction.</p>
         </div>

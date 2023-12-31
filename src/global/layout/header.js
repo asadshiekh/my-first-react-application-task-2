@@ -9,7 +9,7 @@ function header() {
     <div>
        <header className='desktop_header'>
         <div className="logo_img " id>
-          <img src={LogoImage} alt="logo main" />
+         <Link to={"/"}> <img src={LogoImage} alt="logo main" /></Link>
         </div>
         <nav>
           <ul>
