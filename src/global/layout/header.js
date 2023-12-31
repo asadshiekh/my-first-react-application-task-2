@@ -37,7 +37,7 @@ function header() {
           <IoMdMenu  className='menu_icon'/>
         </div>
         <div className="logo_img " id>
-          <img src={LogoImage} alt="logo main" />
+        <Link to={"/"}>  <img src={LogoImage} alt="logo main" /></Link>
         </div>
         <div className='number'>
         <IoLogoWhatsapp className='phone_icon'/>
