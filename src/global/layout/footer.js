@@ -1,19 +1,19 @@
-import React from 'react'
-
+import React from 'react';
+import LogoImage from '../../assets/images/logo/logo.svg';
 function footer() {
   return (
     <div>
       <footer>
         <div className="coloumn_one">
           <div className="logo_img">
-            <img src="./assets/images/logo/logo.svg" alt="" />
+            <img src={LogoImage} alt="" />
           </div>
           <p>We make sure that your safety is never compromised. This is why we hire all the staff under the roof of Home Comfort, just for your satisfaction.</p>
         </div>
         <div className="coloumn_two">
           <div className="footer_listing">
             <ul>
-              <li><a href="/">Home</a></li>
+              <li><a href="/" className='active'>Home</a></li>
               <li><a href="/">Services</a></li>
               <li><a href="/">Contact Us</a></li>
             </ul>
