@@ -1,5 +1,6 @@
 import React from 'react';
 import LogoImage from '../../assets/images/logo/logo.svg';
+import { Link } from 'react-router-dom';
 function footer() {
   return (
     <div>
@@ -13,9 +14,9 @@ function footer() {
         <div className="coloumn_two">
           <div className="footer_listing">
             <ul>
-              <li><a href="/" className='active'>Home</a></li>
-              <li><a href="/">Services</a></li>
-              <li><a href="/">Contact Us</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/services">Service</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
           </div>
           <div className="footer_listing">

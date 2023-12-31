@@ -2,6 +2,7 @@ import React from 'react';
 import LogoImage from '../../assets/images/logo/logo.svg';
 import { IoMdMenu } from "react-icons/io";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 function header() {
   return (
@@ -13,13 +14,17 @@ function header() {
         <nav>
           <ul>
             <li>
-              Home
+              <Link to="/">Home</Link>
             </li>
             <li>
+            <Link to="/services">
               Service
+              </Link>
             </li>
             <li>
+            <Link to="/contact">
               Contact
+              </Link>
             </li>
             <li className="header_btn">
               +8980003809343
