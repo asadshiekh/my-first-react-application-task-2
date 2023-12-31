@@ -693,6 +693,38 @@ padding: 10px 0;
         display: block;
     }
 
+    .desktop_header{
+        display: none;
+    }
+
+    .mobile_header{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+
+    .menu_icon{
+        font-size: 32px;
+    }
+
+    .mobile_header .number{
+        text-align: right;
+    }
+
+    .phone_icon{
+        font-size: 32px;
+        color: #058B8C;
+    }
+
+    .mobile_header .logo_img{
+        width: 200px;
+    }
+    .mobile_header .logo_img img{
+        width: 100%;
+    }
+
+
     .banner-section .banner-inner-content {
         display: grid;
         grid-template-columns: 1fr;
@@ -733,20 +765,85 @@ padding: 10px 0;
         display: none;
     }
 
-    .services-section .services-inner-content {
+    .services-section {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
 
-        grid-template-columns: 1fr;
+    .services-section .service-box .icon-wraper {
+        height: 100px;
+        width: 100px;
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.08);
+
+    }
+    .services-section .service-box .icon-wraper img {
+        width: 60px;
+    }
+    
+    .services-section .service-box h4 {
+        font-size: 13px;
+    }
+
+    .ourServies {
+        padding: 40px 20px;
+    }
+
+    .global_title{
+        font-size: 35px;
+    }
+    .global_title span {
+        font-size: 35px;
+    }
+
+    .who-section{
+        padding:20px 20px 20px 20px ;
     }
 
     .who-section .who-inner-content {
         grid-template-columns: 1fr;
     }
 
+    .who-image{
+        order: 2;
+    }
+
+    .who-content{
+        order: 1;
+    }
+
+    .who-section .content-wraper h2 {
+        font-size: 35px;
+    }
+    .who-image {
+        padding-right: 17px;
+        background-size: 93%;
+    }
+
     .company-section .company-inner-content {
         grid-template-columns: 1fr;
     }
+
+    .company-section {
+        padding: 20px;
+    }
+
+    .company-section .content-wraper h2 {
+        font-size: 35px;
+    }
+
+    .company-image {
+        padding-right: 19px;
+        padding-left: 30px;
+        background-position: 99% 50%;
+        background-size: 74%;
+    }
    
     /* Client Review  */
+
+    .client-section{
+        padding: 20px;
+    }
+
     .client-reviews .review-block {     
         margin-top: 20px;
     }
@@ -756,6 +853,19 @@ padding: 10px 0;
         column-gap: 0;
         margin-top: 20px;
     }
+
+
+    /* Emergency */
+
+    .emergency-section .emergency-inner-content h4 {
+        font-size: 35px;
+    }
+
+    .call_icon_emergency{
+        font-size: 30px;
+        color: white;
+    }
+
 
     /* Footer */
 
@@ -775,7 +885,13 @@ padding: 10px 0;
 @media (min-width: 768px) and (max-width: 991.98px) { }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) { }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .call_icon_emergency{
+        display: none;
+    }
+
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }
