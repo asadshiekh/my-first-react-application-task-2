@@ -794,7 +794,8 @@ padding: 10px 0;
     .banner-section {
         background: url('../assets/images/home/banner/banner.svg');
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
+        min-height: 350px;
         /* background: linear-gradient(180deg, rgba(249, 249, 249, 0.00) 0%, rgba(249, 249, 249, 0.79) 47.1%, #F9F9F9 100%); */
     }
 
@@ -953,6 +954,15 @@ padding: 10px 0;
     .news_letter button {
         width: 35%;
     }
+
+    .contact_form_page .container {
+        width: 450px;
+        padding: 10px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+    
 
  }
 
