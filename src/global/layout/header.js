@@ -27,7 +27,7 @@ function header() {
               </Link>
             </li>
             <li className="header_btn">
-              +8980003809343
+              <a href='tel:03349974743' style={{color:"white"}}> +8980003809343</a>
             </li>
           </ul>
         </nav>
@@ -40,7 +40,7 @@ function header() {
         <Link to={"/"}>  <img src={LogoImage} alt="logo main" /></Link>
         </div>
         <div className='number'>
-        <IoLogoWhatsapp className='phone_icon'/>
+        <a href='tel:03349974743'><IoLogoWhatsapp className='phone_icon'/></a>
         </div>
       </header>
     </div>
